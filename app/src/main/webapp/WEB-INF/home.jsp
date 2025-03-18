@@ -11,17 +11,11 @@
         <h1>Menu Principal</h1>
         <nav>
             <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/categoria/list">Categorias</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/plataforma/list">Plataforma</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/jogo/list">Jogo</a>
+                <div style="display: flex; gap: 10px;">
+                    <a class="btn btn-primary" href="/">Home</a>
+                    <a class="btn btn-primary" href="/categoria/list">Categorias</a>
+                    <a class="btn btn-primary" href="/plataforma/list">Plataforma</a>
+                    <a class="btn btn-primary" href="/jogo/list">Jogo</a>
                 </li>
             </ul>
         </nav>

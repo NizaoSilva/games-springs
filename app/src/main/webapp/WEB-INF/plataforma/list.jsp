@@ -11,7 +11,10 @@
 <body>
     <div class="container">
         <h1>Plataformas</h1>
-        <a href="/plataforma/insert" class="btn btn-primary">Nova Plataforma</a>
+        <div style="display: flex; gap: 10px;">
+            <a href="/categoria/insert" class="btn btn-primary">Nova Categoria</a>
+            <a class="btn btn-primary" href="/">Home</a>
+        </div>
         
         <table class="table">
             <thead>
