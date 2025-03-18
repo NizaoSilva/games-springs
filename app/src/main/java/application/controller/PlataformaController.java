@@ -28,7 +28,7 @@ public class PlataformaController {
 
     @RequestMapping("/insert")
     public String insert() {
-        return "plataformas/insert"; // Nome da view para o formulário de adição
+        return "plataforma/insert"; // Nome da view para o formulário de adição
     }
 
     @RequestMapping(value = "/insert", method = RequestMethod.POST)
@@ -37,7 +37,7 @@ public class PlataformaController {
         plataforma.setNome(nome);
 
         plataformaRepo.save(plataforma);
-        return "redirect:/plataformas/list"; // Redireciona para a lista após adicionar
+        return "redirect:/plataforma/list"; // Redireciona para a lista após adicionar
     }
 
     @RequestMapping("/update")
