@@ -9,7 +9,6 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     </head>
     <body>
-       
         <div class="container">
             <h1>Nova Categoria</h1>
             <form action="/categoria/insert" method="post">
@@ -21,8 +20,8 @@
                 </div>
                 <br/>
 
-            <a href="/categoria/list" class="btn btn-primary">Voltar </a>
-            <button type="submit" class="btn btn-sucess">Salvar</button>
+            <a href="/categoria/list" class="btn btn-primary">Cancelar</a>
+            <button type="submit" class="btn btn-sucess">Inserir</button>
           
             </form>
 
